@@ -2,9 +2,9 @@ import pandas as pd
 from fastapi import FastAPI
 
 app = FastAPI()
-df = pd.read_csv(r'C:\Users\nahue\Searches\Escritorio\CARRERA HENRY\Primer_proyecto_individual\Datasets\movies_dataset_transf.csv',low_memory=False) 
-df_get_actor = pd.read_csv(r'C:\Users\nahue\Searches\Escritorio\CARRERA HENRY\Primer_proyecto_individual\Datasets\df_para_funcion_get_actor.csv',low_memory=False)
-df_get_director =  pd.read_csv(r'C:\Users\nahue\Searches\Escritorio\CARRERA HENRY\Primer_proyecto_individual\Datasets\df_para_funcion_get_director.csv',low_memory=False)
+df = pd.read_csv(r'Datasets/movies_dataset_transf.csv',low_memory=False) 
+df_get_actor = pd.read_csv(r'Datasets/df_para_funcion_get_actor.csv',low_memory=False)
+df_get_director =  pd.read_csv(r'Datasets/df_para_funcion_get_director.csv',low_memory=False)
 
 @app.get("/cantidad_filmaciones_mes/{mes}")
 def cantidad_filmaciones_mes(mes: str)-> int:
