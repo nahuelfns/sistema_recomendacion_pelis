@@ -9,7 +9,7 @@ app = FastAPI()
 
 df = pd.read_csv(r'C:\Users\nahue\Searches\Escritorio\CARRERA HENRY\Primer_proyecto_individual\Datasets\movies_dataset_transf.csv',low_memory=False) 
 df_get_actor = pd.read_csv(r'Datasets/df_para_funcion_get_actor.csv',low_memory=False)
-df_get_director = pd.read_csv(r'C:\Users\nahue\Searches\Escritorio\CARRERA HENRY\Primer_proyecto_individual\Datasets\df_para_funcion_get_director.csv',low_memory=False)
+df_get_director = pd.read_csv(r'Datasets/df_para_funcion_get_director.csv',low_memory=False)
 df_para_recomendacion = pd.read_csv(r'C:\Users\nahue\Searches\Escritorio\CARRERA HENRY\Primer_proyecto_individual\Datasets\df_para_recomendacion.csv', low_memory=False)
 
 tfidf = TfidfVectorizer(stop_words='english')
