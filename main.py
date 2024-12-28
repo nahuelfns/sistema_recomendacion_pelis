@@ -8,9 +8,9 @@ import numpy as np
 app = FastAPI()
 
 df = pd.read_csv(r'Datasets/df_para_funciones.csv',low_memory=False) 
-df_get_actor = pd.read_csv(r'Datasets/df_para_funcion_get_actor.csv',low_memory=False)
-df_get_director = pd.read_csv(r'Datasets/df_para_funcion_get_director.csv',low_memory=False)
-df_para_recomendacion = pd.read_csv(r'Datasets/df_para_recomendacion.csv', low_memory=False)
+df_get_actor = pd.read_csv(r'Datasets/df_para_funcion_get_actor1.csv',low_memory=False)
+df_get_director = pd.read_csv(r'Datasets/df_para_funcion_get_director1.csv',low_memory=False)
+df_para_recomendacion = pd.read_csv(r'Datasets/df_para_recomendacion1.csv', low_memory=False)
 
 tfidf = TfidfVectorizer(stop_words='english')
 tfidf_matriz = tfidf.fit_transform(df_para_recomendacion['title'].str.lower())
