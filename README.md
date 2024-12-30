@@ -144,5 +144,32 @@ Este proyecto está bajo la MIT License, permitiendo su uso, modificación y dis
 
 La API ha sido desplegada en Render, asegurando su disponibilidad para consultas y aplicaciones de terceros.
 
+## Despliegue en Render 🚀
+
+La API ha sido desplegada en Render y está disponible en el siguiente enlace:
+
+**https://primer-proyecto-individual-henry.onrender.com**
+
+### Cómo desplegar la API en Render
+
+Para desplegar esta API en Render, sigue los pasos a continuación:
+
+1. **Crea una cuenta en [Render](https://render.com)**.
+2. **Conecta tu repositorio** de GitHub o GitLab con Render.
+3. **Configura el servicio**:
+   - Elige la opción **"Web Service"**.
+   - Selecciona el repositorio del proyecto.
+   - Especifica el comando de inicio en "Start Command":
+     ```bash
+     uvicorn main:app --host 0.0.0.0 --port 10000
+     ```
+   - Configura el entorno como `Python 3.x` y selecciona el archivo `requirements.txt` para las dependencias.
+4. **Despliega**: Render configurará automáticamente el entorno y desplegará la API.
+5. Una vez desplegada, obtendrás un enlace público donde estará disponible la API.
+
+Puedes acceder a la documentación interactiva en:  
+`https://primer-proyecto-individual-henry.onrender.com/docs`
+
+
 ## Autor
 Facundo Serqueira - Contacto: https://www.linkedin.com/in/facundo-nahuel-serqueira-aba554b/
