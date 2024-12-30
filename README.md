@@ -14,11 +14,11 @@ Este proyecto tiene como objetivo analizar títulos de películas y sus promedio
 Instalación y Requisitos
 
 Requisitos:
-•	Python 3.9 o superior
-•	pandas
-•	numpy
-•	matplotlib
-•	scikit-learn
++	Python 3.9 o superior
++	pandas
++	numpy
++	matplotlib
++	scikit-learn
 
 Pasos de instalación:
 1.	Clonar el repositorio: git clone https://github.com/nahuelfns/Primer_proyecto_individual
@@ -30,11 +30,11 @@ o	macOS/Linux: source venv/bin/activate
 
 Estructura del Proyecto
 
-•	Datasets: Contiene los archivos de datos.
-•	notebooks: Jupyter notebooks con el análisis.
-•	Main.py: contiene las funciones que se ejecutaran
-•	Requirements.txt: contiene las dependencias a instalar 
-•	README.md: descripción del proyecto
++	Datasets: Contiene los archivos de datos.
++	notebooks: Jupyter notebooks con el análisis.
++	Main.py: contiene las funciones que se ejecutaran
++	Requirements.txt: contiene las dependencias a instalar 
++	README.md: descripción del proyecto
 
 Uso y Ejecución
 
