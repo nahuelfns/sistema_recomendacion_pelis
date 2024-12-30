@@ -39,13 +39,15 @@ Estructura del Proyecto
 
 Uso y Ejecución
 
-1.	Ejecutar Transformaciones.ipynb en notebooks/ para transformaciones.
-2.	Ejecutar EDA.ipynb en notebooks/ para análisis.
+1.	Ejecutar Transformaciones.ipynb en notebooks para transformaciones.
+2.	Ejecutar EDA.ipynb en notebooks para análisis.
 
 Datos y Fuentes
 
 Datos proporcionados dentro del mismo proyecto que incluyen datos de películas, sus elencos y equipos técnicos
+
 Metodología
+
 Se aplicaron conversión a vectores y similitud de cosenos para recomendar títulos de películas
 
 Resultados y Conclusiones
