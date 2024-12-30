@@ -132,9 +132,9 @@ Se aplicaron conversión a vectores y similitud de cosenos para recomendar títu
 
 El EDA incluye:
 
-Nubes de palabras: Palabras más frecuentes en los títulos de las películas.
-Distribuciones: Tendencias de puntuación, votaciones, y géneros más populares.
-Gráficos interactivos: Análisis en profundidad del dataset.
++ Nubes de palabras: Palabras más frecuentes en los títulos de las películas.
++ Distribuciones: Tendencias de puntuación, votaciones, y géneros más populares.
++ Gráficos interactivos: Análisis en profundidad del dataset.
 
 ## Licencia
 
