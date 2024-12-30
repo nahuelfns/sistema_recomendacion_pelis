@@ -49,9 +49,9 @@ Se aplicaron conversión a vectores y similitud de cosenos para recomendar títu
 
 Resultados y Conclusiones
 
-•	Según el peso que se le asignen a los títulos y puntuaciones y la cantidad de peliculas en el data set las recomendaciones varían para mejor o no.
-•	A mayor cantidad de datos, mas precisas son las recomendaciones.
-•	A mayor peso en los títulos mas parecidos son estos con el ingresado.
++	Según el peso que se le asignen a los títulos y puntuaciones y la cantidad de peliculas en el data set las recomendaciones varían para mejor o no.
++	A mayor cantidad de datos, mas precisas son las recomendaciones.
++	A mayor peso en los títulos mas parecidos son estos con el ingresado.
 
 Autores
-Facundo Serqueira - Contacto: LinkedIn.
+Facundo Serqueira - Contacto: https://www.linkedin.com/in/facundo-nahuel-serqueira-aba554b/
