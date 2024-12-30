@@ -6,10 +6,10 @@ import numpy as np
 
 app = FastAPI()
 
-df = pd.read_csv(r'C:\Users\nahue\Searches\Escritorio\CARRERA HENRY\Primer_proyecto_individual\Datasets\df_para_funciones.csv',low_memory=False) 
-df_get_actor = pd.read_csv(r'C:\Users\nahue\Searches\Escritorio\CARRERA HENRY\Primer_proyecto_individual\Datasets\df_para_funcion_get_actor1.csv',low_memory=False)
-df_get_director = pd.read_csv(r'C:\Users\nahue\Searches\Escritorio\CARRERA HENRY\Primer_proyecto_individual\Datasets\df_para_funcion_get_director1.csv',low_memory=False)
-df_para_recomendacion = pd.read_csv(r'C:\Users\nahue\Searches\Escritorio\CARRERA HENRY\Primer_proyecto_individual\Datasets\df_para_recomendaciones2.csv', low_memory=False)
+df = pd.read_csv(r'Datasets/df_para_funciones.csv',low_memory=False) 
+df_get_actor = pd.read_csv(r'Datasets/df_para_funcion_get_actor1.csv',low_memory=False)
+df_get_director = pd.read_csv(r'Datasets/df_para_funcion_get_director1.csv',low_memory=False)
+df_para_recomendacion = pd.read_csv(r'Datasets/df_para_recomendaciones2.csv', low_memory=False)
 
 
 @app.get("/cantidad_filmaciones_mes/{mes}")
