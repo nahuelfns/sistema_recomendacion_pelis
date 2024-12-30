@@ -124,5 +124,21 @@ Se aplicaron conversión a vectores y similitud de cosenos para recomendar títu
 +	A mayor cantidad de datos, mas precisas son las recomendaciones.
 +	A mayor peso en los títulos mas parecidos son estos con el ingresado.
 
+## Visualizaciones
+
+El EDA incluye:
+
+Nubes de palabras: Palabras más frecuentes en los títulos de las películas.
+Distribuciones: Tendencias de puntuación, votaciones, y géneros más populares.
+Gráficos interactivos: Análisis en profundidad del dataset.
+
+## Licencia
+
+Este proyecto está bajo la MIT License, permitiendo su uso, modificación y distribución.
+
+## Despliegue en Render
+
+La API ha sido desplegada en Render, asegurando su disponibilidad para consultas y aplicaciones de terceros.
+
 ## Autor
 Facundo Serqueira - Contacto: https://www.linkedin.com/in/facundo-nahuel-serqueira-aba554b/
