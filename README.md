@@ -9,6 +9,10 @@
 5.	Datos y Fuentes
 6.	Metodología
 7.	Resultados y Conclusiones
+8.	Visualizaciones
+9.	Licencia
+10.	Despliegue en Render
+11.	Autor
 
 ## Descripción
 
