@@ -3,9 +3,9 @@
 ## Tabla de contenido
 
 1.	Descripción
-2.	Instalación y Requisitos
+2.	Requisitos, Instalación y ejecución
 3.	Estructura del Proyecto
-4.	Uso y Ejecución
+4.	Uso
 5.	Datos y Fuentes
 6.	Metodología
 7.	Resultados y Conclusiones
@@ -14,7 +14,7 @@
 
 Este proyecto desarrolla un sistema de recomendación de películas que combina técnicas de análisis de datos, visualizaciones y modelos de Machine Learning para ofrecer recomendaciones personalizadas basadas en la similitud de películas. Además, se implementa una API con FastAPI para disponibilizar datos clave y funcionalidades relacionadas con películas, actores y directores.
 
-## Instalación y Requisitos
+## Requisitos, Instalación y ejecución
 
 Requisitos:
 +	Python 3.8 o superior
@@ -55,7 +55,7 @@ Devuelve la cantidad de películas estrenadas en el mes especificado (en españo
 Ejemplo:
 
 Entrada: mes = "Enero"
-Salida: "X cantidad de películas fueron estrenadas en el mes de Enero"
+Salida: "X películas fueron estrenadas en el mes de Enero"
 
 2. cantidad_filmaciones_dia(dia)
 Devuelve la cantidad de películas estrenadas en el día especificado (en español).
@@ -63,31 +63,31 @@ Devuelve la cantidad de películas estrenadas en el día especificado (en españ
 Ejemplo:
 
 Entrada: dia = "Lunes"
-Salida: "X cantidad de películas fueron estrenadas en los días Lunes"
+Salida: "X películas fueron estrenadas en los días Lunes"
 
 3. score_titulo(titulo)
 Devuelve el título, año de estreno y score de una película.
 
 Ejemplo:
 
-Entrada: titulo = "Inception"
-Salida: "La película Inception fue estrenada en el año 2010 con un score de 8.8"
+Entrada: titulo = "Hamlet"
+Salida: "La película Hamlet fue estrenada en el año 1996 con un score/popularidad de 9.994088"
 
 4. votos_titulo(titulo)
 Devuelve el título, cantidad de votos y promedio de votaciones. Si tiene menos de 2000 votos, se emite un mensaje indicando que no cumple con el criterio.
 
 Ejemplo:
 
-Entrada: titulo = "Avatar"
-Salida: "La película Avatar cuenta con 25,000 valoraciones, con un promedio de 7.8"
+Entrada: titulo = "Toy Story"
+Salida: "La película Toy Story cuenta con un total de 5415.0 valoraciones, con un promedio de 7.7"
 
 5. get_actor(nombre_actor)
 Devuelve el número de películas en las que participó un actor, su retorno total y el promedio de retorno por película.
 
 Ejemplo:
 
-Entrada: nombre_actor = "Leonardo DiCaprio"
-Salida: "El actor Leonardo DiCaprio ha participado en 35 filmaciones, logrando un retorno total de 500M con un promedio de 14.3M por filmación"
+Entrada: nombre_actor = "Frank Welker"
+Salida: "El actor Frank Welker ha participado de 33 cantidad de filmaciones, el mismo ha conseguido un retorno de 158.51834432334533 con un promedio de 4.80 por filmación"
 
 6. get_director(nombre_director)
 Devuelve el éxito de un director, mostrando el nombre de cada película, fecha de lanzamiento, retorno individual, costo y ganancia.
