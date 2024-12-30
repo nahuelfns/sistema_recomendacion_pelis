@@ -9,6 +9,7 @@ Tabla de contenido
 7.	Resultados y Conclusiones
 
 Descripción
+
 Este proyecto tiene como objetivo analizar títulos de películas y sus promedios de votos para recomendarle al usuario largometrajes parecidos según la búsqueda del mismo. Usando técnicas de ciencia de datos, se genera una lista de cinco posibles películas que el espectador pueda encontrar de su gusto.
 
 Instalación y Requisitos
