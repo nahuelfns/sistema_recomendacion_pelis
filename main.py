@@ -113,18 +113,18 @@ def get_director(nombre_director):
 @app.get("/recomendacion/{titulo}")
 def recomendacion(titulo):
     titulo = titulo.lower()
-    df_para_recomendaciones2['title_lower'] = df_para_recomendaciones2['title'].str.lower()
+    df_para_recomendacion['title_lower'] = df_para_recomendacion['title'].str.lower()
     
-    if titulo not in df_para_recomendaciones2['title_lower'].values:
+    if titulo not in df_para_recomendacion['title_lower'].values:
         return f"La película '{titulo}' no se encuentra en la base de datos."
     
-    vectorizer = CountVectorizer().fit_transform(df_para_recomendaciones2['title_lower'])
+    vectorizer = CountVectorizer().fit_transform(df_para_recomendacion['title_lower'])
     title_similarity = cosine_similarity(vectorizer)
     
-    movie_idx = df_para_recomendaciones2[df_para_recomendaciones2['title_lower'] == titulo].index[0]
+    movie_idx = df_para_recomendacion[df_para_recomendacion['title_lower'] == titulo].index[0]
     similarity_scores = title_similarity[movie_idx]
     
-    normalized_vote = df_para_recomendaciones2['vote_average'] / df_para_recomendaciones2['vote_average'].max()
+    normalized_vote = df_para_recomendacion['vote_average'] / df_para_recomendacion['vote_average'].max()
     
     alpha = 0.7  
     beta = 0.3   
@@ -133,9 +133,9 @@ def recomendacion(titulo):
     similar_indices = np.argsort(combined_similarity)[::-1]
     similar_indices = similar_indices[similar_indices != movie_idx]
 
-    recommended_titles = df_para_recomendaciones2['title'].iloc[similar_indices[:5]].tolist()
+    recommended_titles = df_para_recomendacion['title'].iloc[similar_indices[:5]].tolist()
     
-    df_para_recomendaciones2.drop(columns=['title_lower'], inplace=True)
+    df_para_recomendacion.drop(columns=['title_lower'], inplace=True)
     
     return recommended_titles
     
