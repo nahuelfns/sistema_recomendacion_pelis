@@ -142,11 +142,7 @@ Este proyecto está bajo la MIT License, permitiendo su uso, modificación y dis
 
 ## Despliegue en Render
 
-La API ha sido desplegada en Render, asegurando su disponibilidad para consultas y aplicaciones de terceros.
-
-## Despliegue en Render 🚀
-
-La API ha sido desplegada en Render y está disponible en el siguiente enlace:
+La API ha sido desplegada en Render, asegurando su disponibilidad para consultas y aplicaciones de terceros en el siguiente enlace:
 
 **https://primer-proyecto-individual-henry.onrender.com**
 
