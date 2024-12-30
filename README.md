@@ -168,4 +168,4 @@ Puedes acceder a la documentación interactiva en:
 
 
 ## Autor
-Facundo Serqueira - Contacto: https://www.linkedin.com/in/facundo-nahuel-serqueira-aba554b/
+Facundo Nahuel Serqueira - Contacto: https://www.linkedin.com/in/facundo-nahuel-serqueira-aba554b/
