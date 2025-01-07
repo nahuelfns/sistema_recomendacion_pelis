@@ -129,7 +129,15 @@ Se aplicaron conversión a vectores y similitud de cosenos para recomendar títu
 +	A mayor peso en los títulos mas parecidos son estos con el ingresado.
 
 ## Visualizaciones
+Transformaciones incluye:
 
++ Observación de tamaño y estructura del df.
++ Desempaquetados.
++ Creación de columna.
++ Tratatamiento de valores NaN ya sea reemplazándolos o eliminándolos según lo amerite la columna en la que se encuntran.
++ Eliminacion de columnas innecesarias.
++ Transformacion de tipo de dato de columnas.
+  
 El EDA incluye:
 
 + Nubes de palabras: Palabras más frecuentes en los títulos de las películas.
