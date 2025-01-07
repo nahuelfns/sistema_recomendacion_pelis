@@ -16,7 +16,7 @@
 
 ## Descripción
 
-Este proyecto desarrolla un sistema de recomendación de películas que combina técnicas de análisis de datos, visualizaciones y modelos de Machine Learning para ofrecer recomendaciones personalizadas basadas en la similitud de películas. Además, se implementa una API con FastAPI para disponibilizar datos clave y funcionalidades relacionadas con películas, actores y directores.
+Este proyecto desarrolla un sistema de recomendación de películas que combina técnicas de análisis de datos, visualizaciones y modelos de Machine Learning para ofrecer recomendaciones personalizadas basadas en la similitud de los nombres de películas y sus promedios de voto. Además, se implementa una API con FastAPI para disponibilizar datos clave y funcionalidades relacionadas con películas, actores y directores.
 
 ## Requisitos, Instalación y ejecución
 
