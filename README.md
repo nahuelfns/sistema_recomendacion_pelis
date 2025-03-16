@@ -33,7 +33,7 @@ Requisitos:
 
 Pasos de instalación y ejecución
 
-1.	Clonar el repositorio: git clone https://github.com/nahuelfns/Primer_proyecto_individual.git
+1.	Clonar el repositorio: git clone https://github.com/nahuelfns/sistema_recomendacon_pelis.git
 cd Primer_proyecto_individual
 2.	Crear un entorno virtual: python -m venv venv
 3.	Activar el entorno virtual:
